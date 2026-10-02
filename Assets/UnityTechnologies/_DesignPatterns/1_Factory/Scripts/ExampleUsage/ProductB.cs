@@ -16,7 +16,7 @@ namespace DesignPatterns.Factory
         {
             gameObject.name = m_ProductName;
 
-            // do some logic here
+            // Xử lý một số logic tại đây
             audioSource = GetComponent<AudioSource>();
 
             if (audioSource == null)
